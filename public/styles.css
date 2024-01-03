@@ -75,3 +75,16 @@ textarea {
 .btn:hover {
     background-color: #83E5FF;
 }
+
+.custom-image {
+    opacity: 10%;
+    max-width: 5%;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    transition: opacity 200ms ease-in-out;
+}
+
+.custom-image:hover {
+    opacity: 100%;
+}
